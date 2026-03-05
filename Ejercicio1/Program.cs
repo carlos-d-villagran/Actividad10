@@ -17,6 +17,7 @@ namespace ACTIVIDAD10
             Console.WriteLine("Indique el carné del estudiante a buscar: ");
             int carne = int.Parse(Console.ReadLine());
             Console.WriteLine(estudiantes[carne]);
+            //Al colocar el carné se desplegará el nombre del estudiante.
         }
     }
 }
